@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>💖 Matchmaker for the Web 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>💖 Matchmaker 💖</h1>
+
+    <p>Answer each question from 1 (Strongly Disagree) to 5 (Strongly Agree)</p>
+
+    <form id="matchForm">
+
+      <div class="question">
+        <label>1. I enjoy staying at home more than going out.</label>
+        <input type="number" min="1" max="5" required>
+      </div>
+
+      <div class="question">
+        <label>2. I love trying new foods.</label>
+        <input type="number" min="1" max="5" required>
+      </div>
+
+      <div class="question">
+        <label>3. I like waking up early.</label>
+        <input type="number" min="1" max="5" required>
+      </div>
+
+      <div class="question">
+        <label>4. I enjoy watching movies often.</label>
+        <input type="number" min="1" max="5" required>
+      </div>
+
+      <div class="question">
+        <label>5. I prefer texting over calling.</label>
+        <input type="number" min="1" max="5" required>
+      </div>
+
+      <button type="submit">Find My Match 💘</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
